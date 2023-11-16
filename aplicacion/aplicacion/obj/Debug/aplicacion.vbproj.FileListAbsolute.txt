@@ -1,0 +1,142 @@
+C:\Users\kriti\OneDrive\Documents\GitHub\inventory-control\aplicacion\aplicacion\bin\Debug\aplicacion.exe.config
+C:\Users\kriti\OneDrive\Documents\GitHub\inventory-control\aplicacion\aplicacion\bin\Debug\aplicacion.exe
+C:\Users\kriti\OneDrive\Documents\GitHub\inventory-control\aplicacion\aplicacion\bin\Debug\aplicacion.pdb
+C:\Users\kriti\OneDrive\Documents\GitHub\inventory-control\aplicacion\aplicacion\bin\Debug\aplicacion.xml
+C:\Users\kriti\OneDrive\Documents\GitHub\inventory-control\aplicacion\aplicacion\obj\Debug\aplicacion.vbproj.AssemblyReference.cache
+C:\Users\kriti\OneDrive\Documents\GitHub\inventory-control\aplicacion\aplicacion\obj\Debug\aplicacion.Form1.resources
+C:\Users\kriti\OneDrive\Documents\GitHub\inventory-control\aplicacion\aplicacion\obj\Debug\aplicacion.Resources.resources
+C:\Users\kriti\OneDrive\Documents\GitHub\inventory-control\aplicacion\aplicacion\obj\Debug\aplicacion.vbproj.GenerateResource.cache
+C:\Users\kriti\OneDrive\Documents\GitHub\inventory-control\aplicacion\aplicacion\obj\Debug\aplicacion.vbproj.CoreCompileInputs.cache
+C:\Users\kriti\OneDrive\Documents\GitHub\inventory-control\aplicacion\aplicacion\obj\Debug\aplicacion.exe
+C:\Users\kriti\OneDrive\Documents\GitHub\inventory-control\aplicacion\aplicacion\obj\Debug\aplicacion.xml
+C:\Users\kriti\OneDrive\Documents\GitHub\inventory-control\aplicacion\aplicacion\obj\Debug\aplicacion.pdb
+C:\Users\kriti\OneDrive\Escritorio\Work\Nueva carpeta\aplicacion\aplicacion\bin\Debug\aplicacion.exe.config
+C:\Users\kriti\OneDrive\Escritorio\Work\Nueva carpeta\aplicacion\aplicacion\bin\Debug\aplicacion.exe
+C:\Users\kriti\OneDrive\Escritorio\Work\Nueva carpeta\aplicacion\aplicacion\bin\Debug\aplicacion.pdb
+C:\Users\kriti\OneDrive\Escritorio\Work\Nueva carpeta\aplicacion\aplicacion\bin\Debug\aplicacion.xml
+C:\Users\kriti\OneDrive\Escritorio\Work\Nueva carpeta\aplicacion\aplicacion\obj\Debug\aplicacion.vbproj.AssemblyReference.cache
+C:\Users\kriti\OneDrive\Escritorio\Work\Nueva carpeta\aplicacion\aplicacion\obj\Debug\aplicacion.Form1.resources
+C:\Users\kriti\OneDrive\Escritorio\Work\Nueva carpeta\aplicacion\aplicacion\obj\Debug\aplicacion.Resources.resources
+C:\Users\kriti\OneDrive\Escritorio\Work\Nueva carpeta\aplicacion\aplicacion\obj\Debug\aplicacion.vbproj.GenerateResource.cache
+C:\Users\kriti\OneDrive\Escritorio\Work\Nueva carpeta\aplicacion\aplicacion\obj\Debug\aplicacion.vbproj.CoreCompileInputs.cache
+C:\Users\kriti\OneDrive\Escritorio\Work\Nueva carpeta\aplicacion\aplicacion\obj\Debug\aplicacion.exe
+C:\Users\kriti\OneDrive\Escritorio\Work\Nueva carpeta\aplicacion\aplicacion\obj\Debug\aplicacion.xml
+C:\Users\kriti\OneDrive\Escritorio\Work\Nueva carpeta\aplicacion\aplicacion\obj\Debug\aplicacion.pdb
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\bin\Debug\aplicacion.exe.config
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\bin\Debug\aplicacion.exe
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\bin\Debug\aplicacion.pdb
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\bin\Debug\aplicacion.xml
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\bin\Debug\Dapper.dll
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\bin\Debug\MySqlConnector.dll
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\bin\Debug\System.Buffers.dll
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\bin\Debug\System.Collections.Immutable.dll
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\bin\Debug\System.Memory.dll
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\bin\Debug\System.Text.Json.dll
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\bin\Debug\System.Threading.Channels.dll
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\bin\Debug\System.ValueTuple.dll
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\bin\Debug\Dapper.xml
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\bin\Debug\MySqlConnector.xml
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\bin\Debug\System.Buffers.xml
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\bin\Debug\System.Collections.Immutable.xml
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\bin\Debug\System.Memory.xml
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\bin\Debug\System.Text.Json.xml
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\bin\Debug\System.Threading.Channels.xml
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\bin\Debug\System.ValueTuple.xml
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.vbproj.AssemblyReference.cache
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.AgregarActivo.resources
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.AgregarCliente.resources
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.AgregarEquipo.resources
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.AgregarSIM.resources
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.AgregarUsuario.resources
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.AsignarActivos.resources
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.AsignarEquipo.resources
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.AsignarSIM.resources
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.BajaEquipos.resources
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.Conectividad.resources
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.FormAdmin.resources
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.InformeActivos.resources
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.Login.resources
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.MigracionSIM.resources
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.Resources.resources
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.ReporteGeneral.resources
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.vbproj.GenerateResource.cache
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.vbproj.CoreCompileInputs.cache
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.vbproj.CopyComplete
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.exe
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.xml
+C:\Users\kriti\OneDrive\Documents\GitHub\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.pdb
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\bin\Debug\aplicacion.exe.config
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\bin\Debug\aplicacion.exe
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\bin\Debug\aplicacion.pdb
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\bin\Debug\aplicacion.xml
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\bin\Debug\Dapper.dll
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\bin\Debug\MySqlConnector.dll
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\bin\Debug\System.Buffers.dll
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\bin\Debug\System.Collections.Immutable.dll
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\bin\Debug\System.Memory.dll
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\bin\Debug\System.Text.Json.dll
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\bin\Debug\System.Threading.Channels.dll
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\bin\Debug\System.ValueTuple.dll
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\bin\Debug\Dapper.xml
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\bin\Debug\MySqlConnector.xml
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\bin\Debug\System.Buffers.xml
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\bin\Debug\System.Collections.Immutable.xml
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\bin\Debug\System.Memory.xml
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\bin\Debug\System.Text.Json.xml
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\bin\Debug\System.Threading.Channels.xml
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\bin\Debug\System.ValueTuple.xml
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.vbproj.AssemblyReference.cache
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.AgregarActivo.resources
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.AgregarCliente.resources
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.AgregarEquipo.resources
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.AgregarSIM.resources
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.AgregarUsuario.resources
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.AsignarActivos.resources
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.AsignarEquipo.resources
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.AsignarSIM.resources
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.BajaEquipos.resources
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.Conectividad.resources
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.FormAdmin.resources
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.InformeActivos.resources
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.Login.resources
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.MigracionSIM.resources
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.Resources.resources
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.ReporteGeneral.resources
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.vbproj.GenerateResource.cache
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.vbproj.CoreCompileInputs.cache
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.vbproj.CopyComplete
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.exe
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.xml
+C:\Users\IT Localiza\Desktop\aplicacion\aplicacion\aplicacion\obj\Debug\aplicacion.pdb
