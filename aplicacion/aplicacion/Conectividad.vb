@@ -36,4 +36,5 @@
             MessageBox.Show("Ingrese el puerto al que desa conectarse.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning)
         End If
     End Sub
+
 End Class

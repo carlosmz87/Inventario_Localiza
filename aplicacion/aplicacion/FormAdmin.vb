@@ -17,7 +17,7 @@ Public Class FormAdmin
         Application.Exit()
     End Sub
 
-    ' Navegación de los paneles
+    ' ╔════════════════════════════════════════════════ NAVEGACIÓN PANELES ═══════════════════════════════════════════════╗
     Private Sub ClientesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ClientesToolStripMenuItem.Click
         If (PanelCliente.Visible = False) Then
             ' Agregamos color al menu strip, y tambien a cada item al dar click para 
@@ -39,6 +39,14 @@ Public Class FormAdmin
             PanelCliente.Location = New Point(0, 0)
             PanelCliente.Dock = DockStyle.Fill
         End If
+        ' Cargamos la tabla de clientes
+        Try
+            If controlador.CargarTablaClientes() = False Then
+                MessageBox.Show("No se pudo cargar la tabla de clientes.", "Error de conexión", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            End If
+        Catch ex As Exception
+            MessageBox.Show("Ocurrió algo inesperado (" & ex.Message & ").", "Error Fatal", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
     End Sub
     Private Sub ActivosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ActivosToolStripMenuItem.Click
         If (PanelActivos.Visible = False) Then
@@ -61,6 +69,14 @@ Public Class FormAdmin
             PanelActivos.Location = New Point(0, 0)
             PanelActivos.Dock = DockStyle.Fill
         End If
+        ' Cargamos la tabla de activos
+        Try
+            If controlador.CargarTablaActivos() = False Then
+                MessageBox.Show("No se pudo cargar la tabla de activos.", "Error de conexión", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            End If
+        Catch ex As Exception
+            MessageBox.Show("Ocurrió algo inesperado (" & ex.Message & ").", "Error Fatal", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
     End Sub
     Private Sub EquiposToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles EquiposToolStripMenuItem.Click
         If (PanelEquipos.Visible = False) Then
@@ -83,6 +99,14 @@ Public Class FormAdmin
             PanelEquipos.Location = New Point(0, 0)
             PanelEquipos.Dock = DockStyle.Fill
         End If
+        ' Cargamos tabla Equipos
+        Try
+            If controlador.CargarTablaEquipos() = False Then
+                MessageBox.Show("No se pudo cargar la tabla de equipos.", "Error de conexión", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            End If
+        Catch ex As Exception
+            MessageBox.Show("Ocurrió algo inesperado (" & ex.Message & ").", "Error Fatal", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
     End Sub
 
     Private Sub SIMToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SIMToolStripMenuItem.Click
@@ -106,6 +130,14 @@ Public Class FormAdmin
             PanelSIM.Location = New Point(0, 0)
             PanelSIM.Dock = DockStyle.Fill
         End If
+        ' Cargamos tabla SIM
+        Try
+            If controlador.CargarTablaSIM() = False Then
+                MessageBox.Show("No se pudo cargar la tabla de sim.", "Error de conexión", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            End If
+        Catch ex As Exception
+            MessageBox.Show("Ocurrió algo inesperado (" & ex.Message & ").", "Error Fatal", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
     End Sub
 
     Private Sub UsuariosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles UsuariosToolStripMenuItem.Click
@@ -129,6 +161,14 @@ Public Class FormAdmin
             PanelUsuario.Location = New Point(0, 0)
             PanelUsuario.Dock = DockStyle.Fill
         End If
+        ' Cargamos tabla usuarios
+        Try
+            If controlador.CargarTablaUsuarios() = False Then
+                MessageBox.Show("No se pudo cargar la tabla de usuarios.", "Error de conexión", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            End If
+        Catch ex As Exception
+            MessageBox.Show("Ocurrió algo inesperado (" & ex.Message & ").", "Error Fatal", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
     End Sub
 
     Private Sub MarcasYModelosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MarcasYModelosToolStripMenuItem.Click
@@ -152,14 +192,93 @@ Public Class FormAdmin
             PanelMarcaYModelos.Location = New Point(0, 0)
             PanelMarcaYModelos.Dock = DockStyle.Fill
         End If
+        ' Cargamos tablas de modelos y marcas
+        Try
+            If controlador.CargarTablaMarcas() = False Then
+                MessageBox.Show("No se pudo cargar la tabla de marcas gps.", "Error de conexión", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            End If
+            If controlador.CargarTablaModelos() = False Then
+                MessageBox.Show("No se pudo cargar la tabla de modelos gps.", "Error de conexión", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            End If
+        Catch ex As Exception
+            MessageBox.Show("Ocurrió algo inesperado (" & ex.Message & ").", "Error Fatal", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
     End Sub
 
-    ' Navegación hacia otras pestañas
+
+    ' ╔═══════════════════════════════════════════════ CLIENTES ═══════════════════════════════════════════════╗
     Private Sub BTN_agregarClientes_Click(sender As Object, e As EventArgs) Handles BTN_agregarClientes.Click
         Me.Hide()
         AgregarCliente.Show()
         AgregarCliente.BackColor = ColorTranslator.FromHtml("#A7E0EA")
     End Sub
+
+    ' Editar información clientes
+    Private Sub BTN_editarClientes_Click(sender As Object, e As EventArgs) Handles BTN_editarClientes.Click
+        DGV_clientes.ReadOnly = False
+        DGV_clientes.Columns("Telefono_C").ReadOnly = False
+        DGV_clientes.Columns("Correo_C").ReadOnly = False
+    End Sub
+    Private Sub DGV_clientes_CellEndEdit(sender As Object, e As DataGridViewCellEventArgs) Handles DGV_clientes.CellEndEdit
+
+        If e.ColumnIndex = DGV_clientes.Columns("Telefono_C").Index OrElse
+            e.ColumnIndex = DGV_clientes.Columns("Correo_C").Index Then
+            'Aquí va tu código para guardar cambios
+            Try
+                Dim resultado = MessageBox.Show("¿Desea editar la información del cliente " & valorSeleccionado & "?", "Advertencia", MessageBoxButtons.OKCancel, MessageBoxIcon.Exclamation)
+                DGV_clientes.SelectionMode = False
+                If resultado = DialogResult.OK Then
+                    Dim telefono = DGV_clientes.CurrentRow.Cells("Telefono_C").Value
+                    Dim correo = DGV_clientes.CurrentRow.Cells("Correo_C").Value
+                    If (controlador.Editarcliente(valorSeleccionado, telefono, correo)) Then
+                        MessageBox.Show("Se editó la información del cliente " & valorSeleccionado, "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                        bloquearCeldasClientes()
+                    End If
+                Else
+                    conn.desconexion()
+                    bloquearCeldasClientes()
+                    controlador.CargarTablaClientes()
+                End If
+            Catch ex As Exception
+                MessageBox.Show("Algo inesperado ocurrió: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                bloquearCeldasClientes()
+            End Try
+        End If
+    End Sub
+    Private Sub bloquearCeldasClientes()
+        DGV_clientes.Columns("Telefono_C").ReadOnly = True
+        DGV_clientes.Columns("Correo_C").ReadOnly = True
+    End Sub
+    ' Eliminar cliente
+    Private Sub BTN_eliminarClientes_Click(sender As Object, e As EventArgs) Handles BTN_eliminarClientes.Click
+        Try
+            Dim resultado = MessageBox.Show("¿Desea eliminar al cliente " & valorSeleccionado & "?", "Advertencia", MessageBoxButtons.OKCancel, MessageBoxIcon.Exclamation)
+            If resultado = DialogResult.OK Then
+                If (controlador.EliminarCliente(valorSeleccionado)) Then
+                    MessageBox.Show("Se eliminó al cliente " & valorSeleccionado, "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                    TB_buscarClientes.Text = ""
+                End If
+            End If
+        Catch ex As Exception
+            MessageBox.Show("Algo inesperado ocurrió: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
+    End Sub
+
+
+
+
+    ' ╔══════════════════════════════ ACTIVOS ══════════════════════════════╗
+    ' ╔══════════════════════════════ EQUIPOS ══════════════════════════════╗
+    ' ╔════════════════════════════════ SIM ════════════════════════════════╗
+    ' ╔══════════════════════════════ USUARIOS ═════════════════════════════╗
+    ' ╔══════════════════════════ MODELOS Y MARCAS ═════════════════════════╗
+
+
+
+    ' Navegación de los paneles
+
+
+    ' Navegación hacia otras pestañas
     Private Sub BTN_agregarActivos_Click(sender As Object, e As EventArgs) Handles BTN_agregarActivos.Click
         Me.Hide()
         AgregarActivo.Show()
@@ -245,71 +364,19 @@ Public Class FormAdmin
             PanelUsuario.Visible = False
             PanelCliente.Location = New Point(0, 0)
             PanelCliente.Dock = DockStyle.Fill
-        End If
-        Try
-            If controlador.CargarTablaClientes() = False Then
-                MessageBox.Show("No se pudo cargar la tabla de clientes.", "Error de conexión", MessageBoxButtons.OK, MessageBoxIcon.Error)
-            End If
-            If controlador.CargarTablaActivos() = False Then
-                MessageBox.Show("No se pudo cargar la tabla de activos.", "Error de conexión", MessageBoxButtons.OK, MessageBoxIcon.Error)
-            End If
-            If controlador.CargarTablaEquipos() = False Then
-                MessageBox.Show("No se pudo cargar la tabla de equipos.", "Error de conexión", MessageBoxButtons.OK, MessageBoxIcon.Error)
-            End If
-            If controlador.CargarTablaSIM() = False Then
-                MessageBox.Show("No se pudo cargar la tabla de sim.", "Error de conexión", MessageBoxButtons.OK, MessageBoxIcon.Error)
-            End If
-            If controlador.CargarTablaUsuarios() = False Then
-                MessageBox.Show("No se pudo cargar la tabla de usuarios.", "Error de conexión", MessageBoxButtons.OK, MessageBoxIcon.Error)
-            End If
-            If controlador.CargarTablaMarcas() = False Then
-                MessageBox.Show("No se pudo cargar la tabla de marcas gps.", "Error de conexión", MessageBoxButtons.OK, MessageBoxIcon.Error)
-            End If
-            If controlador.CargarTablaModelos() = False Then
-                MessageBox.Show("No se pudo cargar la tabla de modelos gps.", "Error de conexión", MessageBoxButtons.OK, MessageBoxIcon.Error)
-            End If
-        Catch ex As Exception
-            MessageBox.Show("Ocurrió algo inesperado (" & ex.Message & ").", "Error Fatal", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        End Try
-    End Sub
-
-    ' Editar tablas
-    Private Sub BTN_editarClientes_Click(sender As Object, e As EventArgs) Handles BTN_editarClientes.Click
-        DGV_clientes.ReadOnly = False
-        DGV_clientes.Columns("Telefono_C").ReadOnly = False
-        DGV_clientes.Columns("Correo_C").ReadOnly = False
-    End Sub
-    Private Sub DGV_clientes_CellEndEdit(sender As Object, e As DataGridViewCellEventArgs) Handles DGV_clientes.CellEndEdit
-
-        If e.ColumnIndex = DGV_clientes.Columns("Telefono_C").Index OrElse
-            e.ColumnIndex = DGV_clientes.Columns("Correo_C").Index Then
-            'Aquí va tu código para guardar cambios
+            ' Cargamos tabla clientes
             Try
-                Dim resultado = MessageBox.Show("¿Desea editar la información del cliente " & valorSeleccionado & "?", "Advertencia", MessageBoxButtons.OKCancel, MessageBoxIcon.Exclamation)
-                DGV_clientes.SelectionMode = False
-                If resultado = DialogResult.OK Then
-                    Dim telefono = DGV_clientes.CurrentRow.Cells("Telefono_C").Value
-                    Dim correo = DGV_clientes.CurrentRow.Cells("Correo_C").Value
-                    If (controlador.Editarcliente(valorSeleccionado, telefono, correo)) Then
-                        MessageBox.Show("Se editó la información del cliente " & valorSeleccionado, "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information)
-                        bloquearCeldasClientes()
-                    End If
-                Else
-                    conn.desconexion()
-                    bloquearCeldasClientes()
-                    controlador.CargarTablaClientes()
+                If controlador.CargarTablaClientes() = False Then
+                    MessageBox.Show("No se pudo cargar la tabla de clientes.", "Error de conexión", MessageBoxButtons.OK, MessageBoxIcon.Error)
                 End If
             Catch ex As Exception
-                MessageBox.Show("Algo inesperado ocurrió: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-                bloquearCeldasClientes()
+                MessageBox.Show("Ocurrió algo inesperado (" & ex.Message & ").", "Error Fatal", MessageBoxButtons.OK, MessageBoxIcon.Error)
             End Try
         End If
     End Sub
 
-    Private Sub bloquearCeldasClientes()
-        DGV_clientes.Columns("Telefono_C").ReadOnly = True
-        DGV_clientes.Columns("Correo_C").ReadOnly = True
-    End Sub
+    ' Editar tablas
+
 
     Private Sub BTN_editarActivos_Click(sender As Object, e As EventArgs) Handles BTN_editarActivos.Click
         DGV_Activos.ReadOnly = False
@@ -368,7 +435,7 @@ Public Class FormAdmin
         DGV_Sim.Columns("ICC_S").ReadOnly = True
         DGV_Sim.Columns("Numero_S").ReadOnly = False
         DGV_Sim.Columns("Propietario_S").ReadOnly = False
-        DGV_Sim.Columns("Vence_S").ReadOnly = False
+        ' DGV_Sim.Columns("Vence_S").ReadOnly = False
         DGV_Sim.Columns("Plan_Datos_S").ReadOnly = False
         DGV_Sim.Columns("Compania_S").ReadOnly = False
     End Sub
@@ -451,19 +518,7 @@ Public Class FormAdmin
     End Sub
 
     ' Funcionalidades de los botonoes eliminar
-    Private Sub BTN_eliminarClientes_Click(sender As Object, e As EventArgs) Handles BTN_eliminarClientes.Click
-        Try
-            Dim resultado = MessageBox.Show("¿Desea eliminar al cliente " & valorSeleccionado & "?", "Advertencia", MessageBoxButtons.OKCancel, MessageBoxIcon.Exclamation)
-            If resultado = DialogResult.OK Then
-                If (controlador.EliminarCliente(valorSeleccionado)) Then
-                    MessageBox.Show("Se eliminó al cliente " & valorSeleccionado, "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information)
-                    TB_buscarClientes.Text = ""
-                End If
-            End If
-        Catch ex As Exception
-            MessageBox.Show("Algo inesperado ocurrió: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        End Try
-    End Sub
+
     Private Sub BTN_eliminarActivos_Click(sender As Object, e As EventArgs) Handles BTN_eliminarActivos.Click
         Try
             Dim resultado = MessageBox.Show("¿Desea eliminar el activo " & valorSeleccionado & "?", "Advertencia", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning)
